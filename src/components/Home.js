@@ -19,8 +19,8 @@ function Home() {
         leftBtnText="Order Now" rightBtnText="Demo Drive"/>
         <Section 
         title={'Model-X'} backgroundImg="model-x.jpg" 
-        description="Order Online For Touchless Delivery" l
-        eftBtnText="Order Now" rightBtnText="Demo Drive"/>
+        description="Order Online For Touchless Delivery" 
+        leftBtnText="Order Now" rightBtnText="Demo Drive"/>
         <Section 
         title={'Cheapest Solar Panels in America'} backgroundImg="solar-panel.jpg" 
         description="Money Back Guarantee" 
@@ -39,5 +39,5 @@ function Home() {
 export default Home
 
 const Container = styled.div`
-    height: 100vh;
+  height: 100vh;
 `
