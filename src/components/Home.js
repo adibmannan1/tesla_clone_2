@@ -6,7 +6,7 @@ function Home() {
   return (
     <Container>
         <Section 
-        title={'Model-S'} backgroundImg="model-s.jpg" 
+        title={'Model-3'} backgroundImg="model-3.jpg" 
         description="Order Online For Touchless Delivery" 
         leftBtnText="Order Now" rightBtnText="Demo Drive"/>
         <Section 
@@ -14,7 +14,7 @@ function Home() {
         description="Order Online For Touchless Delivery" 
         leftBtnText="Order Now" rightBtnText="Demo Drive"/>
         <Section 
-        title={'Model-3'} backgroundImg="model-3.jpg" 
+        title={'Model-S'} backgroundImg="model-s.jpg" 
         description="Order Online For Touchless Delivery" 
         leftBtnText="Order Now" rightBtnText="Demo Drive"/>
         <Section 

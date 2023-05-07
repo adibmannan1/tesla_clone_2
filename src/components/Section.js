@@ -42,6 +42,7 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between;
     background-image: ${props => `url("/images/${props.bgImage}")`};
+    
 `
 const ItemText = styled.div`
   padding: 10vh;
@@ -59,7 +60,8 @@ const ButtonGroup = styled.div`
   }
 `
 const LeftButton = styled.div`
-  background-color: rgba(23, 26, 32, 0.85);
+  background-color: rgba(23, 26, 32);
+  opacity: 0.8;
   border-radius: 5px;
   height: 40px;
   width: 250px;
@@ -68,9 +70,13 @@ const LeftButton = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  &:hover{
+    opacity: 1;
+  }
+  transition: ease-in-out 0.2s;
 `
 const RightButton = styled(LeftButton)`
-  background-color: rgba(255,255,255, 0.85);
+  background-color: rgba(255,255,255);
   color: black;
 `
 const DownArrow = styled.img`
